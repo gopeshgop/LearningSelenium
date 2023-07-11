@@ -40,6 +40,13 @@ public class MyAccountInformationTest extends TestBase{
 		Assert.assertEquals("My Account Information", myAccountInformationText, "Wrong Assertion");
 	}
 	
+	@Test
+	public void validatetestcase() {
+		
+	Assert.assertEquals("test", "test","test goes fail");	
+	}
+	
+	
 	@AfterMethod
 	public void quit() {
 		tearDown();
