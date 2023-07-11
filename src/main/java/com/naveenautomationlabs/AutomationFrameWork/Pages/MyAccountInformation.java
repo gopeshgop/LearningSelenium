@@ -7,7 +7,7 @@ import com.naveenautomationlabs.AutomationFrameWork.base.TestBase;
 
 public class MyAccountInformation extends TestBase{
 	
-	@FindBy(css = "#content h1")
+	@FindBy(xpath = "//h1")
 	WebElement infoTextInEditAccount;
 	
 	public String findMyAccountInformationText() {
