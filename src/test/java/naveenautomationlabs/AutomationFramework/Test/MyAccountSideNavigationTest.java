@@ -33,5 +33,10 @@ public class MyAccountSideNavigationTest extends TestBase {
 		
 	}
 	
+	@Test
+	public void validateTestCase() {
+		Assert.assertEquals("Test", "Test1", "Failed test");
+	}
+	
 
 }
