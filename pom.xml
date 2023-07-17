@@ -100,10 +100,7 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.8.0</version>
 				</plugin>
-				<plugin>
-					<artifactId>maven-surefire-plugin</artifactId>
-					<version>2.22.1</version>
-				</plugin>
+				
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
 					<version>3.0.2</version>
@@ -137,7 +134,7 @@
 						<suiteXmlFiles>
 							<suiteXmlFile>src/test/resources/testng/testng.xml</suiteXmlFile>
 							<suiteXmlFile>
-								target/surefire-reports/testngfailed.xml</suiteXmlFile>
+								test-output/testng-failed.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
