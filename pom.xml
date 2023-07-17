@@ -132,7 +132,7 @@
 						<!-- Sets the VM argument line used for unit tests are
 						run. -->
 						<suiteXmlFiles>
-							<suiteXmlFile>src/test/resources/testng/testng.xml</suiteXmlFile>
+							<suiteXmlFile>testng.xml</suiteXmlFile>
 							<suiteXmlFile>
 								test-output/testng-failed.xml</suiteXmlFile>
 						</suiteXmlFiles>
